@@ -2,55 +2,59 @@
 format: jb-book
 root: index
 chapters:
-  # Sing O Muse!
-  - file: act1/part1
-    sections:
-      - title: Life
-        file: act1/chapter1
-      - title: Ecosystem
-        file: act1/chapter2
-      - title: Resilience
-        file: act1/chapter3
-        
-  # Sing O Muse!
-  - file: act2/part2
-    sections:
-      - title: Prometheus
-        file: act2/chapter1
-      - title: Duality
-        file: act2/chapter2
-      - title: Apollo-Dionysus
-        file: act2/chapter3
 
-  # Apollo
-  - file: act3/part3
+  - file: act1/part1
+    title: Act I – Biology, System, Survival
     sections:
-      - title: 'Weaponized 🌊'
-        file: act3/act1
+      - file: act1/chapter1
+        title: Living Risk: The Biological Substrate
+      - file: act1/chapter2
+        title: Data Habitats: Ecosystems and Exposure
+      - file: act1/chapter3
+        title: What Survives: Modeling Resilience
+
+  - file: act2/part2
+    title: Act II – Myth, Model, Meaning
+    sections:
+      - file: act2/chapter1
+        title: The Fire-Giver: Tools, Ethics, Transgression
+      - file: act2/chapter2
+        title: Splitscreen: Cognitive Dissonance in Risk
+      - file: act2/chapter3
+        title: Apollo & Dionysus: Control and Ecstasy in Design
+
+  - file: act3/part3
+    title: Act III – Power, Constraint, Inference
+    sections:
+      - file: act3/act1
+        title: Truth as Weapon 🌊
         sections:
-          - title: Transvaluation
-            file: act3/part1/part1_1
-          - title: Revolution
-            file: act3/part1/part1_2
-          - title: 'Veiled Resentment'
-            file: act3/part1/part1_3
-      - title: 'Tokenized ⚓️'
-        file: act3/act2
+          - file: act3/part1/part1_1
+            title: Transvaluation: Rewriting Risk
+          - file: act3/part1/part1_2
+            title: Revolution: Inference as Resistance
+          - file: act3/part1/part1_3
+            title: Veiled Resentment: Compliance and Control
+
+      - file: act3/act2
+        title: Truth as Token ⚓️
         sections:
-          - title: Freedom-in-Fetters
-            file: act3/part2/part2_1
-          - title: Dancing-in-Chains
-            file: act3/part2/part2_2
-          - title: 'Born-to-Etiquette ☔️'
-            file: act3/part2/part2_3
-      - title: 'Monopolized 🧭'
-        file: act3/act3
+          - file: act3/part2/part2_1
+            title: Freedom-in-Fetters: Choice and Constraint
+          - file: act3/part2/part2_2
+            title: Dancing-in-Chains: The Performance of Consent
+          - file: act3/part2/part2_3
+            title: Born-to-Etiquette ☔️: Bureaucracy and Belonging
+
+      - file: act3/act3
+        title: Truth as Monopoly 🧭
         sections:
-          - title: Traditional
-            file: act3/part3/part3_1
-          - title: Normative
-            file: act3/part3/part3_2
-          - title: Stable
-            file: act3/part3/part3_3
+          - file: act3/part3/part3_1
+            title: Tradition as Algorithm
+          - file: act3/part3/part3_2
+            title: Normativity by Default
+          - file: act3/part3/part3_3
+            title: Stability or Stagnation?
 
   - file: bibliography
+    title: Bibliography
